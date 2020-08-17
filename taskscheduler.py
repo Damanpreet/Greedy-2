@@ -3,8 +3,8 @@
 # calculate the empty spots based on it.
 # calculate the number of idle spots that would be required. (empty-no of pending task).
 # return the number of tasks + idle.
-# Time complexity - O(n) # to calculate the maximum frequency task.
-# Space complexity - O(1)
+# Time complexity - O(n) # to calculate the maximum frequency task. -> actual - O(2n)
+# Space complexity - O(1) # maximum would be 26 characters.
 # Did this code run on leetcode? - yes
 
 from collections import Counter
